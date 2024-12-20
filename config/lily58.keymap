@@ -34,7 +34,7 @@ rpi: require_prior_idle {
             bindings = <
 &kp ESC    &kp N1            &kp N2              &kp N3          &kp N4           &kp N5                        &kp N6  &kp N7            &kp N8           &kp N9               &kp N0           &kp GRAVE
 &kp TAB    &kp Q             &kp W               &kp E           &kp R            &kp T                         &kp Y   &kp U             &kp I            &kp O                &kp P            &kp MINUS
-&kp LCTRL  &mt LEFT_SHIFT A  &mt LEFT_CONTROL S  &mt LEFT_ALT D  &mt LEFT_META F  &kp G                         &kp H   &mt RIGHT_META J  &mt RIGHT_ALT K  &mt RIGHT_CONTROL L  &mt RSHIFT SEMI  &kp SQT
+&kp LCTRL  &rpi LEFT_SHIFT A  &rpi LEFT_CONTROL S  &rpi LEFT_ALT D  &rpi LEFT_META F  &kp G                         &kp H   &rpi RIGHT_META J  &rpi RIGHT_ALT K  &rpi RIGHT_CONTROL L  &rpi RSHIFT SEMI  &kp SQT
 &kp LSHFT  &kp Z             &kp X               &kp C           &kp V            &kp B   &kp LBKT     &tog 2   &kp N   &kp M             &kp COMMA        &kp DOT              &kp FSLH         &kp RSHFT
                                                  &kp LALT        &kp LALT         &mo 2   &kp SPACE    &kp RET  &mo 1   &kp BSPC          &kp DEL
             >;
